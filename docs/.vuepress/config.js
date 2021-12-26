@@ -1,6 +1,6 @@
 module.exports = {
   // 站点配置
-  base: '/',
+  base: '/Docs/',
   title: 'IBeenNote',
 
   plugins: [
@@ -10,7 +10,7 @@ module.exports = {
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
-    home: '/',
+    home: '/Docs/',
 
     navbar: [
       {
