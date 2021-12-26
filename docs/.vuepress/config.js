@@ -3,10 +3,15 @@ module.exports = {
   base: '/',
   title: 'IBeenNote',
 
+  plugins: [
+    '@vuepress/plugin-back-to-top',
+  ],
+
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
     home: '/',
+
     navbar: [
       {
         text: 'Home',
@@ -14,15 +19,17 @@ module.exports = {
       },
     ],
 
-    repo: 'https://minandmid.github.io/',
-    repoLabel: 'Github',
-
     sidebar: [
       {
         text: '指南',
         children: ['/guide/README.md'],
       },
     ],
+
+
+
+    repo: 'https://github.com/MinAndMid',
+    repoLabel: 'Github',
 
     tip: '提示',
     warning: '注意',
