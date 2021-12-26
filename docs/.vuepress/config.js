@@ -32,7 +32,5 @@ module.exports = {
 
     backToHome: '返回主页',
     toggleDarkMode: '切换模式',
-    lastUpdated: 'true',
-    lastUpdatedText: '更新时间',
   },
 }
