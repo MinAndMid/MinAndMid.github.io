@@ -2,13 +2,13 @@
 home: true
 heroImage: '/img/hero.png'
 heroText: IBeenNote
-tagline: 莫愁前路无知己，天下谁人不识君
+tagline: 秋阴不散霜飞晚，留得残荷听雨声
 actions:
-  - text: 进入主页
+  - text: 进入主页 →
     link: /guide/
     type: primary
 features:
-- title: 个人笔记
+- title: 笔记与总结
   details: 以 Markdown 为中心的项目结构
 - title: 个人网站
   details: 代替本地臃肿的笔记存储

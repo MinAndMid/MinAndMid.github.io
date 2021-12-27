@@ -5,6 +5,7 @@ module.exports = {
 
   plugins: [
     '@vuepress/plugin-back-to-top',
+    '@vuepress/plugin-search',
   ],
 
   // 主题和它的配置
@@ -12,19 +13,20 @@ module.exports = {
   themeConfig: {
     home: '/Docs/',
 
-    navbar: [
-      {
+    navbar: [{
         text: 'Home',
         link: '/',
       },
-    ],
-
-    sidebar: [
       {
-        text: '指南',
-        children: ['/guide/README.md'],
+        text: 'Guide',
+        link: '/guide/',
       },
     ],
+
+    sidebar: [{
+      text: '指南',
+      children: ['/guide/README.md'],
+    }, ],
 
 
 
@@ -35,7 +37,7 @@ module.exports = {
     warning: '注意',
     danger: '警告',
 
-    notFound: ['找不到页面了...','刷新页面试试呀...'],
+    notFound: ['找不到页面了...', '刷新页面试试呀...'],
 
     backToHome: '返回主页',
     toggleDarkMode: '切换模式',
