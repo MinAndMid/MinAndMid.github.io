@@ -6,9 +6,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-search',
     '@snippetors/vuepress-plugin-code-copy',
-    ['waline', {
-      serverURL: 'https://waline.vercel.app'
-    }]
   ],
 
   // 主题和它的配置
