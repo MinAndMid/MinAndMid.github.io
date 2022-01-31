@@ -1,6 +1,5 @@
 ---
 home: true
-# heroImage: '/img/hero.png'
 heroText: IBeenNote
 tagline: 秋阴不散霜飞晚，留得残荷听雨声
 actions:

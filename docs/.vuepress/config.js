@@ -6,7 +6,7 @@ module.exports = {
   head: [
     ['script', {
       src: '//cdn.jsdelivr.net/npm/@waline/client',
-    }]
+    }],
   ],
 
   plugins: [
@@ -16,7 +16,7 @@ module.exports = {
     ['vuepress-plugin-waline', {
       serverURL: 'https://devsite-blue.vercel.app',
       login: 'disable',
-    }]
+    }],
 
   ],
 
