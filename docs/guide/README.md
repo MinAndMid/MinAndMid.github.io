@@ -137,3 +137,64 @@ const line3 = 'This is line 3'
 
 ## Vue组件 <Badge text="演示" />
 这是默认主题内置的 `<Badge />` 组件 <Badge text="演示" />
+
+## 插件
+:::: tabs
+
+::: tab A
+
+一个平平常常的日子，细蒙蒙的雨丝夹着一星半点的雪花，正纷纷淋淋地向大地飘洒着。时令已快到惊蛰，雪当然再不会存留，往往还没等落地，就已经消失得无踪无影了。黄土高原严寒而漫长的冬天看来就要过去，但那真正温暖的春天还远远地没有到来。
+
+:::
+
+::: tab B
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+:::
+
+::::
+
+<!--  -->
+
+:::: tabs tab-position:right
+
+::: tab A
+
+content 1
+
+:::
+
+::: tab B eager
+
+eagerly loaded content
+![小女孩](/img/100.jpg)
+
+:::
+
+::::
+
+<!--  -->
+
+:::: tabs type:card tab-position:bottom
+
+::: tab A
+
+content 1
+
+:::
+
+::: tab B
+
+Note that this content won't be eagerly loaded since the word `eager` will be treated as a part of the tab name
+
+:::
+
+::::
+
+
+
+<Waline />

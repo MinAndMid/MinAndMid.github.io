@@ -1,11 +1,23 @@
 module.exports = {
   // 站点配置
+  lang: 'zh-CN',
   base: '/Docs/',
   title: 'IBeenNote',
+  head: [
+    ['script', {
+      src: '//cdn.jsdelivr.net/npm/@waline/client',
+    }]
+  ],
 
   plugins: [
     '@vuepress/plugin-search',
     '@snippetors/vuepress-plugin-code-copy',
+    '@snippetors/vuepress-plugin-tabs',
+    ['vuepress-plugin-waline', {
+      serverURL: 'https://devsite-blue.vercel.app',
+      login: 'disable',
+    }]
+
   ],
 
   // 主题和它的配置
@@ -42,4 +54,4 @@ module.exports = {
     backToHome: '返回主页',
     toggleDarkMode: '切换模式',
   },
-}
+};
