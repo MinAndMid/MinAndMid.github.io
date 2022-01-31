@@ -10,12 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@snippetors/vuepress-plugin-code-copy": "^1.1.1",
     "@snippetors/vuepress-plugin-tabs": "^1.1.6",
     "@vuepress/cli": "^2.0.0-alpha.8",
     "@vuepress/plugin-search": "^2.0.0-beta.29",
     "@waline/client": "^1.5.2",
     "vuepress": "^2.0.0-beta.35",
+    "vuepress-plugin-clipboard": "^1.0.6",
     "vuepress-plugin-waline": "^0.1.6"
+  },
+  "dependencies": {
+    "@vuepress/bundler-webpack": "^2.0.0-alpha.1"
   }
 }

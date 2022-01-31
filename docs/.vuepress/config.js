@@ -11,8 +11,8 @@ module.exports = {
 
   plugins: [
     '@vuepress/plugin-search',
-    '@snippetors/vuepress-plugin-code-copy',
     '@snippetors/vuepress-plugin-tabs',
+    'vuepress-plugin-clipboard',
     ['vuepress-plugin-waline', {
       serverURL: 'https://devsite-blue.vercel.app',
       login: 'disable',
