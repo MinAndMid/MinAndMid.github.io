@@ -366,7 +366,7 @@ source ~/.bashrc
 ```sh:no-line-numbers
 hdfs zkfc -formatZK
 ```
-![格式化zookeeper](/img/formatZookeeper.png)
+![格式化zookeeper](/img/FormatZookeeper.png)
 
 ### 格式化NameNode
 在四台机器的zookeeper集群开启状态下，在`Master`运行命令`start-all.sh`启动hadoop集群
