@@ -23,7 +23,7 @@ module.exports = {
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
-    home: '/Docs/',
+    home: '/',
 
     navbar: [{
         text: 'Home',
@@ -37,7 +37,7 @@ module.exports = {
 
     sidebar: [{
       text: '指南',
-      children: ['/guide/README.md'],
+      children: ['/guide/README.md', '/guide/markdownplus.md'],
     }, ],
 
 
