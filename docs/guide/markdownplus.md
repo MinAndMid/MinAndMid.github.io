@@ -1,7 +1,5 @@
 ---
 title: 'VuePress样式'
-editLink: true
-lastUpdated: true
 ---
 
 ## 目录

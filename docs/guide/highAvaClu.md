@@ -1,7 +1,5 @@
 ---
 title: '高可用集群搭建'
-editLink: true
-lastUpdated: true
 ---
 
 ## 1. 准备工作
