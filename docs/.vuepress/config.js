@@ -1,7 +1,7 @@
 module.exports = {
   // 站点配置
   lang: 'zh-CN',
-  base: '/Docs/',
+  base: '/',
   title: 'IBeenNote',
   head: [
     ['script', {
