@@ -49,6 +49,8 @@ module.exports = {
     warning: '注意',
     danger: '警告',
 
+    editLink: false,
+
     notFound: ['找不到页面了...', '刷新页面试试呀...'],
 
     backToHome: '返回主页',
