@@ -1,5 +1,5 @@
 ---
-title: 'Markdown扩展'
+title: 'VuePress样式'
 editLink: true
 lastUpdated: true
 ---
