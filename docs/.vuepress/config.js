@@ -37,7 +37,7 @@ module.exports = {
 
     sidebar: [{
       text: '指南',
-      children: ['highAvaClu.md', '/guide/markdownplus.md'],
+      children: ['highAvaClu.md', 'markdownplus.md'],
     }, ],
 
 
