@@ -15,7 +15,6 @@ module.exports = {
     'vuepress-plugin-clipboard',
     ['vuepress-plugin-waline', {
       serverURL: 'https://devsite-blue.vercel.app',
-      login: 'disable',
     }],
 
   ],
@@ -25,13 +24,14 @@ module.exports = {
   themeConfig: {
     home: '/',
 
-    navbar: [{
-        text: 'Home',
-        link: '/',
-      },
+    navbar: [
+      // {
+      //   text: 'Home',
+      //   link: '/',
+      // },
       {
         text: 'Guide',
-        link: '/guide/',
+        link: '/',
       },
     ],
 

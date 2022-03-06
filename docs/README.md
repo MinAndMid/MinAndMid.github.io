@@ -1,17 +1,11 @@
----
-home: true
-heroText: IBeenNote
-tagline: 秋阴不散霜飞晚，留得残荷听雨声
-actions:
-  - text: 进入主页 →
-    link: /guide/
-    type: primary
-features:
-- title: 知识分享
-  details: 以 Markdown 为中心的项目结构
-- title: 日常随笔
-  details: 记录有趣的事情
-- title: 文档工具
-  details: 基于 VuePress 2.x
-footer: MIT Licensed | Copyright © 2021-present MinAndMid
----
+## 文章一览
+
+- [高可用集群搭建](./highAvaClu.md)
+- [VuePress样式](./markdownplus.md)
+
+
+## 公告区
+
+- 文章为实验后总结，没有经过二次验证，若有错漏或疑问欢迎在评论区或 [Github Discussion](https://github.com/MinAndMid/MinAndMid.github.io/discussions) 指出。  
+
+- 评论区注册时网站为非必填项，其他均为必填项。
